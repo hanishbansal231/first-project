@@ -42,6 +42,7 @@ li{
     display: flex;
     align-items: center;
 }
+/* nav start */
 nav{
     padding: 20px 5%;
 }
@@ -52,6 +53,12 @@ nav{
     justify-content: center;
     gap: 40px;
 }
+#nav-menu-btn{
+    font-size: 3rem;
+    color: #ffc233;
+    display: none;
+}
+/* harder start */
 header{
     height: 100%;
 }
@@ -66,11 +73,6 @@ header{
     text-align: center;
     font-size: 5rem;
     color: #ffc233;
-}
-#nav-menu-btn{
-    font-size: 3rem;
-    color: #ffc233;
-    display: none;
 }
 
 /* media quaries start */
