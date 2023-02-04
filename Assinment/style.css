@@ -74,6 +74,11 @@ header{
     font-size: 5rem;
     color: #ffc233;
 }
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
 
 /* media quaries start */
 @media(max-width:992px){
@@ -103,6 +108,9 @@ header{
     #nav-menu-btn{
        display: block;
     }
+    .bottom img{
+       width: 170px;
+    }
 }
 @media(max-width:500px){
     .header-container h1 {
@@ -114,5 +122,16 @@ header{
     }
     .logo img{
         width: 100px;
+    }
+    .bottom img{
+        width: 140px;
+     }
+}
+@media(max-width:400px){
+    .bottom img{
+        width: 100px;
+     }
+     .header-container h1 {
+       padding-bottom: 15px;
     }
 }
